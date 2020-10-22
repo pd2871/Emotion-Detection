@@ -41,4 +41,4 @@ python face.py
 ```
 Facial Emotions will be classified in real-time
 
- ## Thank you!!! :clap: :clap: :clap:
+ ## Thank you!!! :clap: :clap: :clap: :heart:
