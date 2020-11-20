@@ -1,6 +1,6 @@
 # Emotion Detection using CNN
 ### Aim 
-- To detect the face from live camera frame and use CNN to classify the facial expression of person in the frame(Happy, Angry, Sad, Surprised, Calm, Neutral)
+- To detect the face from live camera frame and use CNN to classify the facial expression of person in the frame (Happy, Angry, Sad, Surprised, Calm, Neutral)
 
 
 ### Description
