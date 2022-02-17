@@ -1,5 +1,4 @@
 import cv2
-from mtcnn.mtcnn import MTCNN
 import numpy as np
 from tensorflow.keras.models import load_model
 classifier = load_model('model1.h5')
@@ -26,8 +25,11 @@ while True:
             fcs.append(fc)
             bbx.append((x,y,x2,y2))
 
+        preds = []
         if(len(fcs))>0:
-            preds = classifier.predict(fcs, batch_size=32)
+            for fc in fcs:
+                pred = classifier.predict(fc)
+                preds.append(pred)
 
         for (box,pred) in zip(bbx,preds):
             (x,y,x2,y2) = box
