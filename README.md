@@ -8,7 +8,7 @@
 - Accuracy of the model is around 55% since facial expressions seems to be similar(like calm and neutral are similiar, angry and sad seems similar)
 - Face Detection process is fast using HAAR CASCADE but however it can be improved using MTCNN
 - Retraining with different models will be taking a lot of time since the images are around 37000 with 150*150 pixels, so its beter to use the pretrained model(took me 4 hours     for 20 epochs). 
-- Download the dataset from <a href="https://drive.google.com/file/d/169B_2gzVGFWEJbdzbweR3kwM6iL_Y_1B/view?usp=sharing">here</a> for manual training. 
+- Download the whole repo along with dataset from <a href="https://drive.google.com/file/d/169B_2gzVGFWEJbdzbweR3kwM6iL_Y_1B/view?usp=sharing">here</a> for manual training. 
 - The images size can be decreased to 50*50 for faster training
 
 ### Process
@@ -33,7 +33,7 @@
 ### Installation and Working Guide
 - Download the zip file of this repo or clone the repo
 - Install the required frameworks and libraries in a new environment
-- Download the h5 file from <a href="https://drive.google.com/file/d/169B_2gzVGFWEJbdzbweR3kwM6iL_Y_1B/view?usp=sharing">here</a> and move it to the working directory
+- Download the h5 file from <a href="https://drive.google.com/file/d/1tO0vKQ9m9hXd_5nkvqh5nAnvgqtlhqx4/view?usp=sharing">here</a> and move it to the working directory
 - Open terminal and change the directory to the downloaded unzipped folder
 - Run the below command
 ```
